@@ -105,10 +105,10 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--mute);font-si
 <div class="cta"><a class="btn" href="#work"><i data-i="trend"></i>View results</a><a class="btn o" href="Suleman_Sajid_Resume.pdf" download><i data-i="download"></i>Download resume</a><a class="btn o" href="#contact"><i data-i="mail"></i>Hire me</a></div>
 <div class="tr"><div><b>5+</b>years in SEO</div><div><b>25+</b>client accounts</div><div><b>40-70%</b>organic traffic lift</div></div>
 </div>
-<div class="sc" aria-label="Search Console results for ice fabrics">
-<div class="t"><div><strong>85.8K</strong>Total clicks</div><div><strong>21.2M</strong>Impressions</div><div><strong>7.2</strong>Avg. position</div></div>
-<svg class="ch" viewBox="0 0 520 220"><path d="M0 120 C60 90 120 80 180 100 S280 70 330 60 420 90 520 100" fill="none" stroke="#4285f4" stroke-width="4"/><path d="M0 200 C80 90 120 70 180 130 S300 150 380 160 460 175 520 180" fill="none" stroke="#5e35b1" stroke-width="4"/><path d="M0 120 C60 90 120 80 180 100 S280 70 330 60 420 90 520 100 V220 H0Z" fill="#4285f4" opacity=".1"/></svg>
-<span class="chip" style="top:84px;right:14px"><i data-i="sparkle"></i>AI Overview ready</span>
+<div class="sc" aria-label="Search Console results for Floorika Fine Hardwood">
+<div class="t"><div><strong>7.43K</strong>Total clicks</div><div><strong>1.85M</strong>Impressions</div><div><strong>11</strong>Avg. position</div></div>
+<img id="heroimg" alt="Search Console chart for Floorika Fine Hardwood showing clicks and impressions rising" style="width:100%;display:block;background:#fff">
+<span class="chip" style="bottom:14px;left:14px"><i data-i="sparkle"></i>Clicks and impressions growing</span>
 </div></header>
 
 <div class="ticker"><div class="w">
@@ -234,6 +234,7 @@ document.getElementById('sk').innerHTML=SK.map(s=>`<div><h3>${ic(s[0])}${s[1]}</
 /* TESTIMONIALS: add only REAL ones, e.g. ["Quote text","Full Name","Title, Company, Country"]. The section stays hidden while this list is empty. */
 const TEST=[];
 if(TEST.length){document.getElementById('reviews').hidden=false;document.getElementById('rv').innerHTML=TEST.map(t=>`<div class="rv">${ic('quote')}<p style="margin:12px 0">${t[0]}</p><b>${t[1]}</b><div style="color:var(--mute);font-size:14px">${t[2]}</div></div>`).join('')}
+document.getElementById('heroimg').src=IMG['Floorika_Fine_Hardwood.jpg'];
 fill(document);
 const lb=document.getElementById('lb');document.addEventListener('click',e=>{if(e.target.tagName=='IMG'&&e.target.closest('.c,.ft')){lb.querySelector('img').src=e.target.src;lb.classList.add('on')}else if(lb.contains(e.target))lb.classList.remove('on')});
 document.addEventListener('keydown',e=>{if(e.key=='Escape')lb.classList.remove('on')});
